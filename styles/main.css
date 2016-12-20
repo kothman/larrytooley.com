@@ -1,11 +1,34 @@
-body { 
-
+body {
     
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
 
 }
 
 #about {
     
     
+    
+    
+}
+
+#projects {
+    
+    
+    
+}
+
+#contact {
+    
+    
+    
+    
+}
+
+.navbar-brand {
+    
+    font-size: 200%;
     
 }
