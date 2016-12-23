@@ -3,6 +3,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
 
 
 }
@@ -29,6 +30,6 @@ body {
 
 .navbar-brand {
     
-    font-size: 200%;
+/*    font-size: 200%;*/
     
 }
