@@ -21,92 +21,84 @@
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-default">
-        
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Larry Tooley</a>
-        </div>
+        <nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
+            <div class="">
+              <a class="navbar-brand" href="#">Larry Tooley</a>
+            </div>
 
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-        
-    </nav>
-    <div id="about">
-        <div id="about-left">
-            <div id="about-para">
-                <p>Full stack developer and data aficionado with experience in project management, 
-                supply chain, accounting, and manufacturing.</p>
+            <!-- Links -->
+            <div class="clearfix float-lg-left">
+                <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler hidden-lg-up float-xs-right" data-target="#navbarResponsive" data-toggle="collapse" type="button"></button>
+                <a class="navbar-brand">Navbar</a>
             </div>
-            <div id="about-talks">
-                <div id="about-talks-group">
-                    <h4>Free Code Camp - Bloomington, Indiana</h4>
-                    <p><strong>Organize, Talk</strong></p>
-                    <div>Facebook</div>
-                    <div>Meetup</div>
-                </div>
-                <div id="about-talks-group">
-                    <h4>Free Code Camp - Indianapolis, Indiana</h4>
-                    <p><strong>Talk</strong></p>
-                    <div>Facebook</div>
-                    <div>Meetup</div>
-                </div>
-                <div id="about-talks-group">
-                    <h4>PyData Indy - Indianapolis, Indiana</h4>
-                    <p><strong>Talk</strong></p>
-                    <div>Twitter</div>
-                    <div>Meetup</div>
-                </div>
+            <div class="collapse navbar-toggleable-md text-muted" id="navbarResponsive">
+                <ul class="nav navbar-nav float-xs-right">
+                  <li class="nav-item"><a href="#about" class="text-muted">About</a></li>
+                  <li class="nav-item"><a href="#portfolio" class="text-muted">Portfolio</a></li>
+                  <li class="nav-item"><a href="#contact" class="text-muted">Contact</a></li>
+                </ul>
             </div>
-            <div id="about-tools">
-                <h4>Languges and Frameworks</h4>
-                <p>HTML, CSS, Javascript, Python, jQuery, Bootstrap, Flask, Django</p>
-                <h4>Tools and Software</h4>
-                <p>Git, PostgreSQL, SQLite, Jupyter Notebooks, Excel</p>
+        </nav>
+        <div id="about">
+            <div id="about-left">
+                <div id="about-para">
+                    <p>Full stack developer and data aficionado with experience in project management, 
+                    supply chain, accounting, and manufacturing.</p>
+                </div>
+                <div id="about-talks">
+                    <div id="about-talks-group">
+                        <h4>Free Code Camp - Bloomington, Indiana</h4>
+                        <p><strong>Organize, Talk</strong></p>
+                        <div>Facebook</div>
+                        <div>Meetup</div>
+                    </div>
+                    <div id="about-talks-group">
+                        <h4>Free Code Camp - Indianapolis, Indiana</h4>
+                        <p><strong>Talk</strong></p>
+                        <div>Facebook</div>
+                        <div>Meetup</div>
+                    </div>
+                    <div id="about-talks-group">
+                        <h4>PyData Indy - Indianapolis, Indiana</h4>
+                        <p><strong>Talk</strong></p>
+                        <div>Twitter</div>
+                        <div>Meetup</div>
+                    </div>
+                </div>
+                <div id="about-tools">
+                    <h4>Languges and Frameworks</h4>
+                    <p>HTML, CSS, Javascript, Python, jQuery, Bootstrap, Flask, Django</p>
+                    <h4>Tools and Software</h4>
+                    <p>Git, PostgreSQL, SQLite, Jupyter Notebooks, Excel</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div id="portfolio">
-        <div class="project">Project 1</div>
-        <div class="project">Project 2</div>
-        <div class="project">Project 3</div>
-        <div class="project">Project 4</div>
-        <div class="project">Project 5</div>
-        <div class="project">Project 6</div>
-    </div>
-    <div id="contact">
-        
-    </div>
-    <footer>
-        
-        <div id="footer-links">
-            
-            <p>About <> Portfolio <> Contact</p>
-            
+        <div id="portfolio">
+            <div class="project">Project 1</div>
+            <div class="project">Project 2</div>
+            <div class="project">Project 3</div>
+            <div class="project">Project 4</div>
+            <div class="project">Project 5</div>
+            <div class="project">Project 6</div>
         </div>
-        
-        <div id="copyright">
-            <p id="copyright-text"></p>
+        <div id="contact">
+
         </div>
-        
-    </footer>
+        <footer>
+
+            <div id="footer-links">
+
+                <p>About <> Portfolio <> Contact</p>
+
+            </div>
+
+            <div id="copyright">
+                <p id="copyright-text"></p>
+            </div>
+
+        </footer>
+    </div>
     
-    
-    
-    
-    </div><!-- /.container-fluid -->
 <!----------------------------------------- Javascript ------------------------------------------------------->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
