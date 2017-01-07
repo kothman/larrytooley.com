@@ -32,10 +32,11 @@ body {
     
 }
 
-img {
+img#headshot {
     
-/*    max-width: 100px;*/
-    
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;    
 }
 
 footer {
@@ -97,5 +98,23 @@ div.project {
 div.project {
     
     padding-top: 30px;
+    
+}
+
+div#image {
+    
+    display: block;
+    margin: auto;
+}
+
+#about-tools h4 {
+    
+    padding-top: 20px;
+    
+}
+
+.about-talks-group {
+    
+    padding-top: 20px;
     
 }
