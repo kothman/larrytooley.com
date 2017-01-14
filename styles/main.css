@@ -7,7 +7,7 @@ body {
 }
 
 #about {
-    padding: 70px 10px 10px 10px;
+    padding: 70px 10px 30px 10px;
     background: #ffc15e;
     
 }
@@ -15,14 +15,14 @@ body {
 
 #portfolio {
     background: #cc5803;
-    padding: 70px 10px 10px 10px;
+    padding: 70px 10px 30px 10px;
     
 }
 
 #contact {
     
     background: #f7b05b;
-    padding: 70px 10px 70px 10px;
+    padding: 70px 10px 30px 10px;
         
 }
     
