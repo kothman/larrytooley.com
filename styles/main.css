@@ -36,11 +36,17 @@ body {
 
 }
 
-img#headshot {
+img#headshot.rounded.img-fluid {
     
     display: block;
     margin: 0 auto;
-    max-width: 300px;    
+
+}
+
+.carousel-inner>.carousel-item>a>img, .carousel-inner>.carousel-item>img, .img-fluid {
+    
+    max-width: 75%;
+    
 }
 
 footer {
