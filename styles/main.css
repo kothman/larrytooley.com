@@ -2,6 +2,7 @@ body {
     
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
 
 }
 
@@ -9,8 +10,8 @@ body {
     padding: 70px 10px 10px 10px;
     background: #ffc15e;
     
-    
 }
+
 
 #portfolio {
     background: #cc5803;
