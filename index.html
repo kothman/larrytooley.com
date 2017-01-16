@@ -9,7 +9,7 @@
     
 <!-- CSS    -->
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     
@@ -22,21 +22,33 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
-              <a class="navbar-brand" href="#">Larry Tooley</a>
+    <nav class="navbar navbar-toggleable-sm navbar-dark navbar-inverse bg-inverse">
+        <!-- Navbar toggle button -->
+        <button
+        class="navbar-toggler navbar-toggler-right"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarContent"
+        aria-controls="navbarContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="float-lg-left">
-                <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler hidden-md-up float-xs-right" data-target="#navbarResponsive" data-toggle="collapse" type="button"></button>
-            </div>
-            <div class="collapse navbar-toggleable-sm text-muted" id="navbarResponsive">
-                <ul class="nav navbar-nav float-xs-right">
-                  <li class="nav-item"><a href="#about" class="text-muted">About</a></li>
-                  <li class="nav-item"><a href="#portfolio" class="text-muted">Portfolio</a></li>
-                  <li class="nav-item"><a href="#contact" class="text-muted">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <!-- Navbar title -->
+        <a href="#" class="navbar-brand">Larry Tooley</a>
+
+        <!-- Navbar items -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#about" class="text-muted nav-link">About</a></li>
+                <li class="nav-item"><a href="#portfolio" class="text-muted nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="text-muted nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
         <div id="about" class="row">
             <div id="about-left" class="col-md-5 offset-md-1">
                 <div id="about-para" class="text-center">
@@ -140,9 +152,9 @@ GitHub</a>
     </div>
     
 <!----------------------------------------- Javascript ------------------------------------------------------->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
     
 </body>
